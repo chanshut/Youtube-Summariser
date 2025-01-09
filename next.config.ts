@@ -12,7 +12,7 @@ module.exports = {
     return [
       {
         source: '/api/webhook/:path*',
-        destination: 'http://localhost:5678/workflow/EAGM3qmQnYgINC4U', // Replace with your n8n instance URL
+        destination: 'http://localhost:5678/webhook-test/youtube-summary', // Replace with your n8n instance URL
       },
     ]
   },
